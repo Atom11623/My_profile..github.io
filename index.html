@@ -2,27 +2,26 @@
 <html lang="en">
 
 <head>
-  <!DOCTYPE html>
-<html lang="en">
-
-<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ibrahim Ali - Data Scientist</title>
     <style>
+        /* Add your CSS styles here */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f7f7f7;
+            line-height: 1.6;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
         }
 
-        header {
+        header,
+        footer {
             background-color: #333;
             color: #fff;
             text-align: center;
-            padding: 20px;
+            padding: 1rem 0;
         }
 
         header img {
@@ -30,28 +29,32 @@
             max-width: 150px;
         }
 
-        section {
-            margin: 20px;
-            padding: 20px;
+        .section {
             background-color: #fff;
+            padding: 2rem;
+            margin: 2rem;
             border-radius: 10px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-        ul {
+        .section h2 {
+            margin-top: 0;
+        }
+
+        .section ul {
             list-style-type: none;
             padding: 0;
         }
 
-        li {
+        .section li {
             margin-bottom: 10px;
         }
 
         .project {
-            margin-bottom: 20px;
             border: 1px solid #ccc;
-            padding: 10px;
-            border-radius: 5px;
+            border-radius: 10px;
+            padding: 1rem;
+            margin: 1rem 0;
             background-color: #fff;
         }
 
@@ -60,45 +63,22 @@
         }
 
         .project p {
-            margin-bottom: 10px;
+            margin-bottom: 1rem;
         }
 
         .project a {
-            text-decoration: none;
-            color: #333;
-            background-color: #ddd;
-            padding: 5px 10px;
-            border-radius: 5px;
-            display: inline-block;
-        }
-
-        footer {
+            display: block;
+            text-align: center;
             background-color: #333;
             color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
         }
     </style>
 </head>
 
-<!-- The rest of your HTML code remains unchanged -->
-
-</html>
-
-</html>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ibrahim Ali - Data Scientist</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* Add any additional custom styles here */
-    </style>
-</head>
 
 <body>
     <header>
@@ -107,7 +87,7 @@
         <p>Data Scientist</p>
     </header>
 
-    <section class="about-me">
+    <div class="section about-me">
         <h2>About Me</h2>
         <p>I am a passionate and highly motivated data scientist with a strong background in statistics and programming. I have completed various data analysis projects, showcasing proficiency in SQL, data cleaning, visualization, and deriving meaningful insights.</p>
         <ul>
@@ -115,15 +95,25 @@
             <li>Email: ibrahimgama4@gmail.com</li>
             <li>LinkedIn: <a href="https://www.linkedin.com/in/ibrahimali/">ibrahimali</a></li>
         </ul>
-    </section>
+        <body>
+    
 
-    <section class="skills">
+    <div class="section education">
+        <h2>Education</h2>
+        <ul>
+            <li>BSc in Statistics, Kano State University of Science and Technology, 2010 – . 2015</li>
+            <li>MSc in Statistics (in view), Ahmadu Bello University, Zaria</li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="section skills">
         <h2>Skills</h2>
         <ul>
             <li>Data Analysis using SQL</li>
             <li>Exploratory Data Analysis (EDA)</li>
             <li>Data Visualization: Matplotlib, Plotly, Seaborn, and Tableau</li>
-            <li>Python Programming and its Framework</li>
+            <li>Python Programming and its Frameworks</li>
             <li>Machine Learning: Supervised and Unsupervised techniques</li>
             <li>Statistical Analysis and Hypothesis Testing</li>
             <li>Strong problem-solving skills and attention to detail</li>
@@ -133,56 +123,56 @@
             <li>MATHEMATICAL MODELLING</li>
             <li>API Design</li>
         </ul>
-    </section>
+    </div>
 
-    <section class="projects">
+    <div class="section projects">
         <h2>Projects</h2>
 
         <div class="project">
             <h3>Housing in Mexico</h3>
-            <p>Learners use a dataset of 21,000 properties to determine if real estate prices are influenced more by property size or location. They import and clean data from a CSV file, build data visualizations, and examine the relationship between two variables using correlation.</p>
+            <p>I use a dataset of 21,000 properties to determine if real estate prices are influenced more by property size or location. They import and clean data from a CSV file, build data visualizations, and examine the relationship between two variables using correlation.</p>
             <a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca-86c1-76850b6fc168">Link to Project</a>
         </div>
 
         <div class="project">
             <h3>Apartment Sales in Buenos Aires</h3>
-            <p>Learners build a linear regression model to predict apartment prices in Argentina. They create a data pipeline to impute missing values and encode categorical features, and they improve model performance by reducing overfitting.</p>
+            <p>I build a linear regression model to predict apartment prices in Argentina. They create a data pipeline to impute missing values and encode categorical features, and they improve model performance by reducing overfitting.</p>
             <a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca-86c1-76850b6fc168">Link to Project</a>
         </div>
 
         <div class="project">
             <h3>Air Quality in Nairobi</h3>
-            <p>Learners build an ARMA time-series model to predict particulate matter levels in Kenya. They extract data from a MongoDB database using pymongo, and improve model performance through hyperparameter tuning.</p>
+            <p>I build an ARMA time-series model to predict particulate matter levels in Kenya. They extract data from a MongoDB database using pymongo, and improve model performance through hyperparameter tuning.</p>
             <a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca-86c1-76850b6fc168">Link to Project</a>
         </div>
 
         <div class="project">
             <h3>Earthquake Damage in Nepal</h3>
-            <p>Learners build logistic regression and decision tree models to predict earthquake damage to buildings. They extract data from a SQLite database, and reveal the biases in data that can lead to discrimination.</p>
+            <p>I build logistic regression and decision tree models to predict earthquake damage to buildings. They extract data from a SQLite database, and reveal the biases in data that can lead to discrimination.</p>
             <a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca-86c1-76850b6fc168">Link to Project</a>
         </div>
 
         <div class="project">
             <h3>Bankruptcy in Poland</h3>
-            <p>Learners build random forest and gradient boosting models to predict whether a company will go bankrupt. They navigate the Linux command line, address imbalanced data through resampling, and consider the impact of performance metrics precision and recall.</p>
+            <p>I build random forest and gradient boosting models to predict whether a company will go bankrupt. They navigate the Linux command line, address imbalanced data through resampling, and consider the impact of performance metrics precision and recall.</p>
             <a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca-86c1-76850b6fc168">Link to Project</a>
         </div>
 
         <div class="project">
             <h3>Customer Segmentation in the US</h3>
-            <p>Learners build a k-means model to cluster US consumers into groups. They use principal component analysis (PCA) for data visualization, and they create an interactive dashboard with Plotly Dash.</p>
+            <p>I build a k-means model to cluster US consumers into groups. They use principal component analysis (PCA) for data visualization, and they create an interactive dashboard with Plotly Dash.</p>
             <a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca-86c1-76850b6fc168">Link to Project</a>
         </div>
 
         <div class="project">
             <h3>A/B Testing at WorldQuant University</h3>
-            <p>Learners conduct a chi-square test to determine if sending an email can increase program enrollment at WQU. They build custom Python classes to implement an ETL process, and they create an interactive data application following a three-tiered design pattern.</p>
+            <p>I conduct a chi-square test to determine if sending an email can increase program enrollment at WQU. They build custom Python classes to implement an ETL process, and they create an interactive data application following a three-tiered design pattern.</p>
             <a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca-86c1-76850b6fc168">Link to Project</a>
         </div>
 
         <div class="project">
             <h3>Volatility Forecasting in India</h3>
-            <p>Learners create a GARCH time series model to predict asset volatility. They acquire stock data through an API, clean and store it in a SQLite database, and build their own API to serve model predictions.</p>
+            <p>I create a GARCH time series model to predict asset volatility. They acquire stock data through an API, clean and store it in a SQLite database, and build their own API to serve model predictions.</p>
             <a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca-86c1-76850b6fc168">Link to Project</a>
         </div>
 
@@ -221,7 +211,18 @@
             <p>PowerCo, a major gas and electricity utility, is facing significant customer churn in the SME segment due to power market liberalization in Europe. To address this, we are exploring the hypothesis that price changes influence churn rates. We aim to build a predictive model to identify customers at risk of churning and assess the impact of a proposed 20% discount.</p>
             <a href="https://project_link_powerco">Link to Project</a>
         </div>
-    </section>
+    </div>
+
+    <div class="section professional-development">
+        <h2>Professional Development</h2>
+        <ul>
+            <li>Programming for Data Science Nanodegree, Udacity</li>
+            <li>Data Analysis Nanodegree, Udacity</li>
+            <li>Data Science Lab, WorldQuant University</li>
+            <li>Analytics with Python, Utiva</li>
+            <li>Google Data Analytics Professional Certificate</li>
+        </ul>
+    </div>
 
     <footer>
         <p>Thank You</p>
