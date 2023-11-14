@@ -1,78 +1,130 @@
-
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Ibrahim Ali Data Scientist Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Ibrahim Ali Data Scientist Portfolio</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4; /* Set a background color for better readability */
+        }
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+        #intro {
+            text-align: center;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+            border-radius: 10px;
+        }
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>IBRAHIM ALI<br />
-							PORTFOLIO</h1>
-						<p>
-							Data scientist | Statistician | Data Analyst instructor <br />
+        #intro h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            color: #333; /* Adjust text color */
+        }
 
-							<a href="https://twitter.com/ibraheem_Gama">@ibraheem_Gama</a> <br />
-						
-							As a seasoned Data Scientist, I bring a wealth of expertise in predictive modeling, data processing, and the implementation of sophisticated data mining algorithms. Proficient in scripting languages such as Python, SQL, and R <br /> 
-                            I possess an exemplary understanding of statistical methodologies. <br />
-							
-						
-						</p>
-						<a href="index.html" class="background image"><img src="https://github.com/Atom11623/My_profile..github.io/blob/1e922bccb3c946e359ef1533b222c0fab746a53a/20211031_095244%20(1).jpg" alt="" style="align-content:center;height:250px;">
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        #intro p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555; /* Adjust text color */
+        }
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Ibrahim Ali Data Scientist</a>
-					</header>
+        #intro a {
+            color: #007bff; /* Set link color */
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-						    
-							<li><a href="https://drive.google.com/drive/u/0/folders/1J8F4FU4-Z7kA-tDYIGfu09H3w6x2N_hs">Resume</a></li>
-							<li><a href="https://medium.com/@olumide.olaoye1">Medium</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href=": www.linkedin.com/in/ibrahimgama4" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/Atom11623/Data_Projectt" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+        #main {
+            padding: 20px;
+        }
 
-				<!-- Main -->
-					<div id="main">
+        .post {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-							
-									<h2><a href="https://github.com/Atom11623/Data_Project/tree/main/Bikeshare%20Data%20Analysis">Explore US Bikeshare Dataset <br />
-									</a></h2>
-								</header>
-								<a href="https://github.com/Atom11623/Data_Project/tree/main/Bikeshare%20Data%20Analysis" class="image main"><img src="https://github.com/Atom11623/My_profile..github.io/blob/39eba105519305d57594d28d877b82ad0441b468/20211031_095244%20(1).jpg" alt="" /></a>
-								<p> I Conducted exploratory data analysis on the US Bikeshare dataset to uncover patterns and trends in bike usage.</p>
-								<ul class="actions special">
-									<li><a href="https://github.com/Atom11623/Data_Project/tree/main/Bikeshare%20Data%20Analysis" class="button large">View Project</a></li>
-								</ul>		
-							</article>
+        .post p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555; /* Adjust text color */
+        }
+
+        .button {
+            background-color: #007bff; /* Set button background color */
+            color: #fff; /* Set button text color */
+            font-weight: bold;
+        }
+
+        #footer {
+            background-color: #333;
+            color: #fff; /* Adjust text color */
+        }
+
+        #copyright {
+            padding: 10px;
+            text-align: center;
+            background-color: #555; /* Set copyright background color */
+            color: #fff; /* Set copyright text color */
+        }
+    </style>
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+    <div id="wrapper" class="fade-in">
+        <div id="intro">
+            <h1>IBRAHIM ALI<br />PORTFOLIO</h1>
+            <p>Data Scientist | Statistician | Data Analyst Instructor <br />
+                <a href="https://twitter.com/ibraheem_Gama">@ibraheem_Gama</a> <br />
+                As a seasoned Data Scientist, I bring a wealth of expertise in predictive modeling, data processing, and the implementation of sophisticated data mining algorithms. Proficient in scripting languages such as Python, SQL, and R <br /> 
+                I possess an exemplary understanding of statistical methodologies. <br />
+            </p>
+            <a href="index.html" class="background image">
+                <img src="https://github.com/Atom11623/My_profile..github.io/blob/1e922bccb3c946e359ef1533b222c0fab746a53a/20211031_095244%20(1).jpg" alt="" style="align-content:center;height:250px;">
+            </a>
+            <ul class="actions">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
+
+        <header id="header">
+            <a href="index.html" class="logo">Ibrahim Ali Data Scientist</a>
+        </header>
+
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">Projects</a></li>
+                <li><a href="https://drive.google.com/drive/u/0/folders/1J8F4FU4-Z7kA-tDYIGfu09H3w6x2N_hs">Resume</a></li>
+                <li><a href="https://medium.com/@olumide.olaoye1">Medium</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="www.linkedin.com/in/ibrahimgama4" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                <li><a href="https://github.com/Atom11623/Data_Projectt" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+            </ul>
+        </nav>
+
+        <div id="main">
+            <!-- Featured Post -->
+            <article class="post featured">
+                <header class="major">
+                    <h2><a href="https://github.com/Atom11623/Data_Project/tree/main/Bikeshare%20Data%20Analysis">Explore US Bikeshare Dataset <br />
+                    </a></h2>
+                </header>
+                <a href="https://github.com/Atom11623/Data_Project/tree/main/Bikeshare%20Data%20Analysis" class="image main"><img src="https://github.com/Atom11623/My_profile..github.io/blob/39eba105519305d57594d28d877b82ad0441b468/20211031_095244%20(1).jpg" alt="" /></a>
+                <p> I Conducted exploratory data analysis on the US Bikeshare dataset to uncover patterns and trends in bike usage.</p>
+                <ul class="actions special">
+                    <li><a href="https://github.com/Atom11623/Data_Project/tree/main/Bikeshare%20Data%20Analysis" class="button large">View Project</a></li>
+                </ul>		
+            </article>
+
+            </article>
 
 						<!-- Posts -->
 						<section class="posts">
@@ -223,6 +275,11 @@
 								</article>
 							</section>
 
+            <section class="posts">
+              
+            </article>
+							</section>
+
 						<!-- Footer -->
 							
 					</div>
@@ -273,4 +330,3 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
-</html>
