@@ -1,333 +1,99 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <title>Ibrahim Ali Data Scientist Portfolio</title>
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f4; /* Set a background color for better readability */
-        }
+<section id="home">
+  <h1>Welcome to Ibrahim Ali's Portfolio</h1>
+  <img src="your-photo-url.jpg" alt="Ibrahim Ali">
+  <p>Hi, I'm Ibrahim Ali, a passionate Data Scientist and AI expert dedicated to solving complex problems through data-driven solutions.</p>
+</section>
 
-        #intro {
-            text-align: center;
-            margin: 100px auto;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
-            border-radius: 10px;
-        }
+<section id="about">
+  <h2>About Me</h2>
+  <p>My name is Ibrahim Ali, from Gama town, Nassarawa local government, Kano State. With a Hausa Fulani background, I have pursued a career in data science and AI after studying statistics at the university level. My ambition is to use data to solve humanity's problems.</p>
+  <p>My journey has been one of continuous learning and application of data science techniques to real-world problems. I have worked on various projects that demonstrate my ability to analyze data and generate actionable insights.</p>
+</section>
 
-        #intro h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-            color: #333; /* Adjust text color */
-        }
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>Data Analysis using SQL</li>
+    <li>Exploratory Data Analysis (EDA)</li>
+    <li>Data Visualization: Matplotlib, Plotly, Seaborn, Tableau</li>
+    <li>Python Programming and its Frameworks</li>
+    <li>Machine Learning: Supervised and Unsupervised techniques</li>
+    <li>Statistical Analysis and Hypothesis Testing</li>
+    <li>Strong problem-solving skills and attention to detail</li>
+    <li>Business Understanding</li>
+    <li>Client Communication</li>
+    <li>Model Evaluation</li>
+    <li>Mathematical Modelling</li>
+    <li>API Design</li>
+  </ul>
+</section>
 
-        #intro p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            color: #555; /* Adjust text color */
-        }
+<section id="experience">
+  <h2>Experience</h2>
+  <div>
+    <h3>Data Analyst Instructor</h3>
+    <p>CWW Tech Africa | January 2022 - September 2023</p>
+    <ul>
+      <li>Instructed and mentored students in data analysis techniques, tools, and best practices.</li>
+      <li>Created and delivered engaging workshops and training sessions on data analysis concepts.</li>
+      <li>Assisted students in applying data analytics to real-world projects, resulting in a 55% increase in knowledge retention and a 20% improvement in student GPA.</li>
+    </ul>
+  </div>
+</section>
 
-        #intro a {
-            color: #007bff; /* Set link color */
-            text-decoration: none;
-            font-weight: bold;
-        }
+<section id="projects">
+  <h2>Projects</h2>
+  <div>
+    <h3>Explore US Bikeshare Dataset</h3>
+    <p>Conducted exploratory data analysis on the US Bikeshare dataset to uncover patterns and trends in bike usage.</p>
+    <a href="https://github.com/Atom11623/Data_Project/tree/main/Bikeshare%20Data%20Analysis">View Project</a>
+  </div>
+  <div>
+    <h3>Data Analysis using SQL (Video Rental Dataset)</h3>
+    <p>Explored and analyzed a video rental dataset using SQL queries to derive valuable insights and trends.</p>
+    <a href="https://github.com/Atom11623/Data_Project/tree/main/Data%20Analysis%20using%20SQL%20(Video%20Rental%20Dataset)">View Project</a>
+  </div>
+  <div>
+    <h3>Bankruptcy in Poland</h3>
+    <p>Built random forest and gradient boosting models to predict whether a company will go bankrupt.</p>
+    <a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca-86c1-76850b6fc168">View Project</a>
+  </div>
+  <!-- Repeat similar blocks for other projects -->
+</section>
 
-        #main {
-            padding: 20px;
-        }
+<section id="education">
+  <h2>Education</h2>
+  <div>
+    <h3>BSc in Statistics</h3>
+    <p>Kano State University of Science and Technology, Kano</p>
+  </div>
+  <div>
+    <h3>MSc in Statistics (in view)</h3>
+    <p>Ahmadu Bello University, Kaduna state, Zaria</p>
+  </div>
+  <h3>Certifications</h3>
+  <ul>
+    <li>Programming for Data Science Nanodegree - Udacity</li>
+    <li>Data Science Lab - WorldQuant University</li>
+    <li>Data Analysis Nanodegree - Udacity</li>
+    <li>SQL Crash Course certification - CoRise</li>
+    <li>AI Products with OpenAI Certification - Uplimit Building</li>
+    <li>Analytics with Python - Utiva</li>
+  </ul>
+</section>
 
-        .post {
-            background-color: #fff;
-            padding: 20px;
-            margin-bottom: 30px;
-            border-radius: 10px;
-        }
-
-        .post p {
-            font-size: 1.1em;
-            line-height: 1.6;
-            color: #555; /* Adjust text color */
-        }
-
-        .button {
-            background-color: #007bff; /* Set button background color */
-            color: #fff; /* Set button text color */
-            font-weight: bold;
-        }
-
-        #footer {
-            background-color: #333;
-            color: #fff; /* Adjust text color */
-        }
-
-        #copyright {
-            padding: 10px;
-            text-align: center;
-            background-color: #555; /* Set copyright background color */
-            color: #fff; /* Set copyright text color */
-        }
-    </style>
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-</head>
-<body class="is-preload">
-
-    <div id="wrapper" class="fade-in">
-        <div id="intro">
-	    <img src="https://drive.google.com/file/d/1Vsgi9D7-eKeVEGFCwUS9eM4ZI3hl3Z4h/view?usp=drivesdk" alt="Profile Picture" />
-            <h1>IBRAHIM ALI<br />PORTFOLIO</h1>
-            <p>Data Scientist | Statistician | Data Analyst Instructor <br />
-                <a href="https://twitter.com/ibraheem_Gama">@ibraheem_Gama</a> <br />
-                As a seasoned Data Scientist, I bring a wealth of expertise in predictive modeling, data processing, and the implementation of sophisticated data mining algorithms. Proficient in scripting languages such as Python, SQL, and R <br /> 
-                I possess an exemplary understanding of statistical methodologies. <br />
-            </p>
-            <a href="index.html" class="background image">
-                <img src="https://github.com/Atom11623/My_profile..github.io/blob/1e922bccb3c946e359ef1533b222c0fab746a53a/20211031_095244%20(1).jpg" alt="" style="align-content:center;height:250px;">
-            </a>
-            <ul class="actions">
-                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-            </ul>
-        </div>
-
-        <header id="header">
-            <a href="index.html" class="logo">Ibrahim Ali Data Scientist</a>
-        </header>
-
-        <nav id="nav">
-            <ul class="links">
-                <li class="active"><a href="index.html">Projects</a></li>
-                <li><a href="https://drive.google.com/drive/u/0/folders/1J8F4FU4-Z7kA-tDYIGfu09H3w6x2N_hs">Resume</a></li>
-                <li><a href="https://medium.com/@olumide.olaoye1">Medium</a></li>
-            </ul>
-            <ul class="icons">
-                <li><a href="www.linkedin.com/in/ibrahimgama4" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                <li><a href="https://github.com/Atom11623/Data_Projectt" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-            </ul>
-        </nav>
-
-        <div id="main">
-            <!-- Featured Post -->
-            <article class="post featured">
-                <header class="major">
-                    <h2><a href="https://github.com/Atom11623/Data_Project/tree/main/Bikeshare%20Data%20Analysis">Explore US Bikeshare Dataset <br />
-                    </a></h2>
-                </header>
-                <a href="https://github.com/Atom11623/Data_Project/tree/main/Bikeshare%20Data%20Analysis" class="image main"><img src="https://github.com/Atom11623/My_profile..github.io/blob/39eba105519305d57594d28d877b82ad0441b468/20211031_095244%20(1).jpg" alt="" /></a>
-                <p> I Conducted exploratory data analysis on the US Bikeshare dataset to uncover patterns and trends in bike usage.</p>
-                <ul class="actions special">
-                    <li><a href="https://github.com/Atom11623/Data_Project/tree/main/Bikeshare%20Data%20Analysis" class="button large">View Project</a></li>
-                </ul>		
-            </article>
-
-            </article>
-
-						<!-- Posts -->
-						<section class="posts">
-							<article>
-								<header>
-
-									<h2><a href="https://github.com/Atom11623/Data_Project/tree/main/PowerCo%20Churn%20Analysis">PowerCo Churn Analysis<br />
-									</a></h2>
-								</header>
-								<a href="https://github.com/Atom11623/Data_Project/tree/main/PowerCo%20Churn%20Analysis" class="image main"><img src="https://github.com/Atom11623/My_profile..github.io/blob/39eba105519305d57594d28d877b82ad0441b468/20211031_095244%20(1).jpg" alt="" /></a>
-								<p>PowerCo, a major gas and electricity utility, is facing significant customer churn in the SME segment due to power market liberalization in Europe. To address this, we are exploring the hypothesis that price changes influence churn rates. We aim to build a predictive model to identify customers at risk of churning and assess the impact of a proposed 20% discount.</p>
-								<ul class="actions special">
-									<li><a href="https://github.com/Atom11623/Data_Project/tree/main/PowerCo%20Churn%20Analysis" class="button large">View Project</a></li>
-								</ul>
-							</article>
-							<article>
-								<header>
-	
-									<h2><a href="https://github.com/Atom11623/Data_Project/tree/main/Fairly%20Used%20Vehicle%20Dataset%20Analysis">Fairly Used Vehicle Dataset Analysis<br />
-									</a></h2>
-								</header>
-								<a href="https://github.com/Atom11623/Data_Project/tree/main/Fairly%20Used%20Vehicle%20Dataset%20Analysis" class="image main"><img src="https://github.com/Atom11623/My_profile..github.io/blob/39eba105519305d57594d28d877b82ad0441b468/20211031_095244%20(1).jpg" alt="" /></a>
-								<p>Based on the analysis, it can be concluded that the price of a motor vehicle in Nigeria is influenced by various factors including engine specifications, fuel type, transmission type, and whether the vehicle is imported or locally used. Additionally, there exists a negative correlation between vehicle price and odometer readings, indicating that vehicles with higher mileage tend to be less expensive. Notably, commercial vehicles using diesel as a fuel type show a weaker correlation with odometer readings.</p>
-								<ul class="actions special">
-									<li><a href="https://github.com/Atom11623/Data_Project/tree/main/Fairly%20Used%20Vehicle%20Dataset%20Analysis" class="button large">View Project</a></li>
-								</ul>
-							</article>
-							<article>
-								<header>
-										
-									<h2><a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168">A/B Testing at WorldQuant University<br />
-									</a></h2>
-								</header>
-								<a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168" class="image fit"><img src="images/We_Rate_Dogs.jpg" alt="" /></a>
-								<p>I conduct a chi-square test to determine if sending an email can increase program enrollment at WQU. I build custom Python classes to implement an ETL process, and they create an interactive data application following a three-tiered design pattern.</p>
-								<ul class="actions special">
-									<li><a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168" class="button">View Project</a></li>
-								</ul>
-							</article>
-							<article>
-								<header>
-										
-									<h2><a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168">Customer Segmentation in the US<br />
-									</a></h2>
-								</header>
-								<a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168" class="image fit"><img src="images/prosper_loan_communicate.jpg" alt="" /></a>
-								<p>In this project, I build a k-means model to cluster US consumers into groups. I use principal component analysis (PCA) for data visualization, and they create an interactive dashboard with Plotly Dash.</p>
-								<ul class="actions special">
-									<li><a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168" class="button">View Project</a></li>
-								</ul>
-							</article>
-							<article>
-								<header>
-										
-									<h2><a href="https://github.com/Atom11623/Data_Project/tree/main/NBA%20PREDICTION">NBA Predictions Project<br />
-									</a></h2>
-								</header>
-								<a href="https://github.com/Atom11623/Data_Project/tree/main/NBA%20PREDICTION" class="image fit"><img src="images/TMDb movie.jpg" alt="" /></a>
-								<p>The NBA Predictions project aims to develop a model to predict the teams that will qualify for the 2022-2023 NBA PLAYOFFS from both the East and West conferences, as well as the eventual winners of each conference and the NBA finals. Additionally, a fictional team of 15 players will be created and its outcome for the 2022-2023 NBA season will be predicted.</p>
-								<ul class="actions special">
-									<li><a href="https://github.com/Atom11623/Data_Project/tree/main/NBA%20PREDICTION" class="button">View Project</a></li>
-								</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/Atom11623/Data_Project/tree/main/Data%20Analysis%20using%20SQL%20(Video%20Rental%20Dataset)">Data Analysis using SQL (Video Rental Dataset)<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Atom11623/Data_Project/tree/main/Data%20Analysis%20using%20SQL%20(Video%20Rental%20Dataset)" class="image fit"><img src="images/automobile_analytics.jpg" alt="" /></a>
-									<p>In this project, I Conducted exploratory data analysis on the US Bikeshare dataset to uncover patterns and trends in bike usage</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Atom11623/Data_Project/tree/main/Data%20Analysis%20using%20SQL%20(Video%20Rental%20Dataset)" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/Atom11623/Data_Project/tree/main/Gun%20Registration%20and%20Population%20Census%20Analysis">Gun Registration and Population Census Analysis<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Atom11623/Data_Project/tree/main/Gun%20Registration%20and%20Population%20Census%20Analysis" class="image fit"><img src="images/covid.jpg" alt="" /></a>
-									<p>This project delves into an analysis of data sourced from the FBI's National Instant Criminal Background Check System (NICS) – a crucial tool for verifying the eligibility of firearm and explosive buyers. This dataset, enriched with state-level census data, provides a comprehensive exploration into various aspects of gun-related variables.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Atom11623/Data_Project/tree/main/Gun%20Registration%20and%20Population%20Census%20Analysis" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href=" https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168">Earthquake Damage in Nepal<br />
-										</a></h2>
-									</header>
-									<a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168" class="image fit"><img src="images/movies_hot.jpg" alt="" /></a>
-									<p>In this project, I build logistic regression and decision tree models to predict earthquake damage to buildings. They extract data from a SQLite database, and reveal the biases in data that can lead to discrimination.</p>
-									<ul class="actions special">
-										<li><a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168">Bankruptcy in Poland<br />
-										</a></h2>
-									</header>
-									<a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168" class="image fit"><img src="images/hotel.jpg" alt="" /></a>
-									<p>In this project, I build random forest and gradient boosting models to predict whether a company will go bankrupt. They navigate the Linux command line, address imbalanced data through resampling, and consider the impact of performance metrics precision and recall </p>
-									<ul class="actions special">
-										<li><a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168">Air Quality in Nairobi<br />
-										</a></h2>
-									</header>
-									<a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168" class="image fit"><img src="images/cart-analytics.jpg" alt="" /></a>
-									<p>In this project, I build an ARMA time-series model to predict particulate matter levels in Kenya. They extract data from a MongoDB database using pymongo, and improve model performance through hyperparameter tuning.</p>
-									<ul class="actions special">
-										<li><a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/Atom11623/Data_Project/tree/main/WeRateDogs%20Twitter%20Data%20Wrangling%20%26%20Analysis">WeRateDogs Twitter Data Wrangling & Analysis<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Atom11623/Data_Project/tree/main/WeRateDogs%20Twitter%20Data%20Wrangling%20%26%20Analysis" class="image fit"><img src="images/tableau.jpg" alt="" /></a>
-									<p>This project is a pivotal component of Udacity's Data Analyst Nanodegree program, focusing on the comprehensive analysis of WeRateDogs, a Twitter account renowned for its whimsical dog ratings and delightful canine images. The endeavor involves intricate data wrangling of WeRateDogs' Twitter archive coupled with supplementary data acquired through the Twitter API. The primary objectives encompass data cleaning, assessment, detailed analysis, and the formulation of insights into WeRateDogs' Twitter activity and the charming world of dog ratings.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Atom11623/Data_Project/tree/main/WeRateDogs%20Twitter%20Data%20Wrangling%20%26%20Analysis" class="button">View Projects</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168">Apartment Sales in Buenos Aires<br />
-										</a></h2>
-									</header>
-									<a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168" class="image fit"><img src="images/bikes.jpg" alt="" /></a>
-									<p>In this project, I build a linear regression model to predict apartment prices in Argentina. They create a data pipeline to impute missing values and encode categorical features, and they improve model performance by reducing overfitting.</p>
-									<ul class="actions special">
-										<li><a href="https://www.credly.com/badges/c4d9c5f7-590e-41ca86c1-76850b6fc168" class="button">View Project</a></li>
-									</ul>
-								
-								</article>
-							</section>
-
-            <section class="posts">
-              
-            </article>
-							</section>
-
-						<!-- Footer -->
-							
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-					
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p><br />
-								Kano, NGA </p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">+234 7068280186</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">ibrahimgama4@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									
-									
-									<li><a href=": www.linkedin.com/in/ibrahimgama4 " class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/Atom11623/Data_Project/tree/main" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="your-contact-form-handler-url" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+  <p>Email: <a href="mailto:Ibrahimgama4@gmail.com">Ibrahimgama4@gmail.com</a></p>
+  <p>Phone: 07068280186</p>
+  <p>GitHub: <a href="https://my-profile-github-io.vercel.app/">my-profile-github-io.vercel.app</a></p>
+</section>
