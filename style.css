@@ -1,129 +1,21 @@
-/* Reset default margin and padding */
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    line-height: 1.6;
 }
 
-/* Set a background color */
-body {
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
-}
-
-/* Define a container for content */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Style the header section */
 header {
-    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
 }
 
-header img {
-    border-radius: 50%;
-    max-width: 150px;
-    margin-bottom: 10px;
-}
-
-header h1 {
-    font-size: 1.5em;
-    color: #333;
-}
-
-header p {
-    font-size: 1.2em;
-    color: #555;
-}
-
-/* Style the sections */
-section {
-    margin: 20px 0;
-}
-
-section h2 {
-    font-size: 1.3em;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-section p {
-    font-size: 1em;
-    color: #555;
-    margin-bottom: 10px;
-}
-
-section ul {
-    list-style-type: none;
+nav ul {
+    list-style: none;
     padding: 0;
 }
 
-section li {
-    font-size: 1em;
-    color: #555;
-    margin-bottom: 5px;
-}
-
-/* Style the projects section */
-.projects {
-    margin: 20px 0;
-}
-
-.projects h2 {
-    font-size: 1.3em;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.project {
-    margin-bottom: 20px;
-}
-
-.project h3 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-.project p {
-    font-size: 1em;
-    color: #555;
-    margin-bottom: 10px;
-}
-
-.project a {
-    font-size: 1em;
-    color: #007bff;
-    text-decoration: none;
-    display: block;
-    margin-top: 10px;
-}
-
-.project a:hover {
-    text-decoration: underline;
-}
-
-/* Style the footer section */
-footer {
-    text-align: center;
-    margin-top: 20px;
-}
-
-footer p {
-    font-size: 1em;
-    color: #555;
-}
-
-/* Style the special sections (PROJECTS, RESUME, MEDIUM) */
-.special {
-    text-align: center;
-}
-
-.special h2 {
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 20px;
-}
+nav ul li {
+    display: inline;
+    margin: 0 
